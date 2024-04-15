@@ -1,0 +1,6 @@
+.containerFooter {
+  width: auto;
+  height: 270px;
+
+  background-color: var(--green-200);
+}
