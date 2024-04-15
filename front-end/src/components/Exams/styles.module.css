@@ -1,0 +1,106 @@
+.containerExams {
+  flex: 1;
+  display: flex;
+
+  background-color: var(--green-200);
+
+}
+
+.moreWantedExams {
+  width: 70%;
+
+  padding: 41px 70px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.titlemoreWantedExams {
+  width: 100%;
+  
+  margin-bottom: 38px;
+  
+}
+
+.titlemoreWantedExams h2 {
+  font-size: 30px;
+  color: var(--white);
+}
+
+.listExams {
+  display: flex;
+}
+
+.listExams ul {
+  font-size: 50px;
+
+  list-style-type: disc;
+}
+
+.listExams ul:first-child {
+  margin:  0 89px 0 20px;
+}
+
+.listExams ul li{
+  color: var(--white);
+
+  font-size: 20px;
+
+  margin-bottom: 11px;
+}
+
+.orientationExams {
+  width: 30%;
+
+  background-image: url("../../assets/doctor.svg");
+  background-size: cover;
+  background-position: center;
+
+  padding: 0 30px 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.orientationExams .descriptionExams {
+  color: var(--white);
+  font-weight: bold;
+
+  margin: 59px 0 44px 0;
+
+  text-align: center;
+  line-height: 1.5;
+}
+
+.orientationExams button{
+  width: 155px;
+  height: 48px;
+
+  border: 0;
+  border-radius: 9px;
+
+  background-color: var(--green-200);
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+}
+
+.orientationExams button:hover {
+  background-color: var(--green-100);
+}
+
+.orientationExams button p {
+  color: var(--white);
+  font-weight: bold;
+  font-size: 20px;
+
+  text-transform: uppercase;
+
+  margin-right: 10px;
+}
