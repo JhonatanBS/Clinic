@@ -7,7 +7,7 @@ export function Footer() {
     <footer className={styles.containerFooter}>
       <p>Copyright &copy;2024 Clínica Médica <strong>clinic</strong>. Todos os direitos reservados.</p>
 
-      <p>Horario de Funcionamento</p>
+      <p>Horário de Funcionamento</p>
 
       <p className={styles.timeFooter}>Segunda à Sexta  (07:00 - 18:00)</p>
       <p className={styles.timeFooter}>Sábado  (07:00 - 12:00)</p>
