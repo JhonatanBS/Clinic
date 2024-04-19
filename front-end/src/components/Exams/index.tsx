@@ -4,7 +4,7 @@ import styles from "./styles.module.css";
 
 export function Exams() {
   return (
-    <section className={styles.containerExams}>
+    <section className={styles.containerExams} id="exames">
       <div className={styles.moreWantedExams}>
 
         <div className={styles.titlemoreWantedExams}>

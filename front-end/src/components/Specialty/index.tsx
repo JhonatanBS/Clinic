@@ -27,7 +27,7 @@ export function Specialty() {
 
 
   return (
-    <section className={styles.ContainerSpecialty}>
+    <section className={styles.ContainerSpecialty} id="especialidades">
       <aside>
         <p className={styles.orientationSpecialty}>
           "Nossa clínica oferece uma ampla gama de especialidades médicas para atender às diversas necessidades

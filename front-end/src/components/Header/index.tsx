@@ -12,9 +12,9 @@ export function Header() {
       <nav>
         <ul>
           <li><a href="/">Home</a></li>
-          <li><a href="/sobre">Especialidades</a></li>
-          <li><a href="/servicos">Exames</a></li>
-          <li><a href="/contato">Contato</a></li>
+          <li><a href="/#especialidades">Especialidades</a></li>
+          <li><a href="/#exames">Exames</a></li>
+          <li><a href="/#contato">Contato</a></li>
         </ul>
       </nav>
 
