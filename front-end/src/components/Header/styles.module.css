@@ -50,7 +50,9 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: var(--green-100); /* Teste */
+  border-radius: 9px;
+  padding: 10px;
+  outline: 2px solid white;
 }
 
 /* Login and Register */
