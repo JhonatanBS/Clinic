@@ -1,3 +1,4 @@
+import { Carousel } from "../Carousel";
 import styles from "./styles.module.css";
 
 export function Main() {
@@ -22,7 +23,7 @@ export function Main() {
       </div>
 
       <div className={styles.carouselPhotos}>
-
+        <Carousel />
       </div>
 
     </main>
